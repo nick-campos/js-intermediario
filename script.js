@@ -1,10 +1,5 @@
-const carro = {
-    marca: 'ferrari',
-    cor: 'vermelho',
-    preco: 30000000,
+function Carro (){
+    const desconto = 1000;
 }
 
-const urus = carro;
-urus.portas = 4;
-urus.marca = "urus";
-urus.preco = 300;
+const fiat = new Carro()
